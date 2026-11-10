@@ -1,0 +1,49 @@
+*{
+    /* html ke har ek element par apply hogi */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#astrology{
+    background-color: darkslategray;
+    width: 350px;
+    height: auto;
+    padding:20px ;
+}
+#astrology >h1{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+label{
+    color: white;
+}
+input{
+    width: 310px;
+    padding:5px ;
+}
+button{
+    width: 310px;
+    background-color: rgb(7, 185, 185);
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    border: none;
+}
+#last{
+     width: 310px;
+     height: auto;
+    padding:5px ;
+    background-color: rgb(6, 40, 40);
+    color: white;
+}
